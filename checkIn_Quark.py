@@ -163,7 +163,7 @@ def main():
         for a in cookie_quark[i].replace(" ", "").split(';'):
             if not a == '':
                 user_data.update({a[0:a.index('=')]: a[a.index('=') + 1:]})
-        # print(user_data)
+        print("❗️ user_data:", user_data)
         # 开始任务
         log = f"🙍🏻‍♂️ 第{i + 1}个账号"
         msg += log
